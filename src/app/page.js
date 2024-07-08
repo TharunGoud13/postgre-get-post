@@ -20,7 +20,9 @@ const page = async() => {
           <h1>Address: {item.address}</h1>
         </div>)}
       </div>
-      <Link href="/signup" className="mt-2.5 underline text-2xl text-blue-400">Add Users</Link>
+      <Link href="/signup" className="mt-2.5 underline text-2xl text-blue-600">Add Users</Link>
+      <Link href="/upload" className="mt-2.5 underline text-2xl text-blue-600">Upload Image</Link>
+      
     </div>
   )
 }
