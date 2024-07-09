@@ -37,7 +37,7 @@ export async function GET(req) {
     const url = new URL(req.url);
     const id = url.searchParams.get('id');
 
-    
+
 
     if (!id) {
         return NextResponse.json({ error: "No file ID provided", status: 400 });
